@@ -32,6 +32,9 @@ header img{
     font-size: 1.3rem;
     color: white;
 }
+/* .header-link{
+    color: rgb(45, 42, 42);
+} */
 .navi-links a:hover{
     text-decoration: underline;
     background-color: #dde8ed;
@@ -51,6 +54,7 @@ body{
 }
 .hdr-link{
     color: white;
+    font-size: 100px;
 }
 .dark-mode{
     background-image: url("dark-mode-image.jpg");
