@@ -30,7 +30,6 @@ let condition=true;
 
 
 
-
 let menu_icon=document.querySelector(".fa-bars");
 let link=document.querySelector(".links");
 menu_icon.addEventListener("click",()=>{
