@@ -6,26 +6,26 @@ let links=document.getElementsByClassName(".der-link")
 var innerpart=document.querySelectorAll(".inner-part");
 let condition=true;
     moon.addEventListener("click",()=>{
-        if(condition){
-    console.log("clicked");
-    moon.classList.toggle("fa-sun");
-    moon.classList.toggle("fa-moon")
-    body.classList.toggle("dark-mode");
-    header.classList.toggle("header-dark");
-    innerpart.forEach(function(el){
-    el.classList.toggle('inner-partforlightmode'); 
-    });
-    logo.src="dark-mode-logo.png";
-    condition=false;
-        }
-        else{
-    logo.src="editkaro-logo.png"
-    moon.classList.toggle("fa-sun");
-    moon.classList.toggle("fa-moon")
-    body.classList.toggle("dark-mode");
-    header.classList.toggle("header-dark");
-    condition=true;
-}
+    if(condition){
+        console.log("clicked");
+        moon.classList.toggle("fa-sun");
+        moon.classList.toggle("fa-moon")
+        body.classList.toggle("dark-mode");
+        header.classList.toggle("header-dark");
+        innerpart.forEach(function(el){
+        el.classList.toggle('inner-partforlightmode'); 
+        });
+        logo.src="dark-mode-logo.png";
+        condition=false;
+    }
+    else{
+        logo.src="editkaro-logo.png"
+        moon.classList.toggle("fa-sun");
+        moon.classList.toggle("fa-moon")
+        body.classList.toggle("dark-mode");
+        header.classList.toggle("header-dark");
+        condition=true;
+    }
 });
 
 
